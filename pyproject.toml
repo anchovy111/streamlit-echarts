@@ -54,6 +54,10 @@ url = "https://test.pypi.org/simple/"
 publish-url = "https://test.pypi.org/legacy/"
 explicit = true
 
+[[tool.streamlit.component.components]]
+name = "streamlit-echarts.streamlit_echarts"
+asset_dir = "streamlit_echarts/frontend/build"
+
 [tool.setuptools.packages.find]
 include = ["streamlit_echarts*"]
 
